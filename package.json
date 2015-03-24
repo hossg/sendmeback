@@ -1,6 +1,6 @@
 {
   "name": "sendmeback",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "start": "node app.js"
@@ -25,6 +25,9 @@
     "type": "git",
     "url": "https://github.com/hossg/sendmeback.git"
   },
-  "keywords":["http","echo","proxy"]
-
+  "keywords": [
+    "http",
+    "echo",
+    "proxy"
+  ]
 }
