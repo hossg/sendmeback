@@ -15,15 +15,17 @@ app.get('/sendmeback/*',function (req, res) {
   code=200
   for(n=0;n<paths.length;n++){
     rc=parseInt(paths[n])
-    if(!isNaN(rc)){
+    if(!isNaN(rc)){ //look for the first thing that looks like a number and use that as the response code
       code=rc
       break;
     }
   }
+  res.set(req.query)
   res.writeHead(code)
   msg=code + ':' + req.url
   res.end(msg)
   console.log(msg)
+  console.log(req.query)
 })
 
 app.get('/', function (req, res) {
