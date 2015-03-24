@@ -1,6 +1,6 @@
 {
   "name": "sendmeback",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "private": false,
   "scripts": {
     "start": "node app.js"
