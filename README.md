@@ -35,3 +35,16 @@ $ curl -v http://localhost:8080/sendmeback/401/this/should/be/an/unauthorised
 
 ## Installation
 
+*Sendmeback* requires [node.js](https://nodejs.org/). Install node, and then install *sendmeback*:
+```
+npm install sendmeback
+```
+
+You can then start *sendmeback* either with:
+```
+node app.js
+```
+or
+```
+npm start
+```
