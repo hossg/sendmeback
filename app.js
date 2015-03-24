@@ -28,7 +28,6 @@ app.get('/sendmeback/*',function (req, res) {
 
 app.get('/', function (req, res) {
     var readme = fs.readFileSync('README.md',{'encoding':'utf8'})
-    console.log(readme)
     var readmeHTML = md.render(readme);
     res.render('index',{title:'SendMeBack',content:readmeHTML})
 })
