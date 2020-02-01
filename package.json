@@ -16,7 +16,7 @@
     "markdown-it": "^4.0.2",
     "morgan": "~1.9.1",
     "serve-favicon": "~2.4.5",
-    "snyk": "^1.110.2"
+    "snyk": "^1.290.1"
   },
   "description": "A simple HTTP echo server.  A client sends a parameterised HTTP request to the server, specifying what it wants to see in the response.",
   "main": "app.js",
