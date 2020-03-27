@@ -1,6 +1,6 @@
 {
   "name": "sendmeback",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": false,
   "scripts": {
     "start": "node app.js",
@@ -22,7 +22,7 @@
   "main": "app.js",
   "devDependencies": {
     "chai": "^2.2.0",
-    "cheerio": "^0.19.0"
+    "cheerio": "^0.22.0"
   },
   "author": "hossg",
   "license": "MIT",
