@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/hossg/sendmeback/badge.svg?targetFile=package.json)](https://snyk.io/test/github/hossg/sendmeback?targetFile=package.json)
+
 # SendMeBack - a simple HTTP echo server
 
 SendMeBack acts as a simple HTTP echo server.  A client sends a parameterised HTTP request to the server, specifying
