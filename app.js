@@ -8,7 +8,7 @@ var fs = require('fs')
 var md = require('markdown-it')();
 
 var app = express()
-app.set('view engine','jade')
+app.set('view engine','pug')
 app.use(express.static('public'))
 
 
