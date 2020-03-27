@@ -4,6 +4,7 @@ var path = require("path")
 var url = require('url')
 var fs = require('fs')
 
+require('pkginfo')(module, 'version');
 
 var md = require('markdown-it')();
 
@@ -61,6 +62,6 @@ var server = app.listen(port, function () {
   var host = server.address().address
   var port = server.address().port
 
-  console.log('SendMeBack app listening at http://%s:%s', host, port)
+  console.log('SendMeBack %s listening at http://%s:%s', module.exports.version, host, port)
 
 })
