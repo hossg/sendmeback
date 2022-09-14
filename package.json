@@ -17,7 +17,7 @@
     "pkginfo": "^0.4.1",
     "pug": "^2.0.4",
     "serve-favicon": "~2.4.5",
-    "snyk": "^1.290.1"
+    "snyk": "^1.324.0"
   },
   "description": "A simple HTTP echo server.  A client sends a parameterised HTTP request to the server, specifying what it wants to see in the response.",
   "main": "app.js",
