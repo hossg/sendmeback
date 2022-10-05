@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -9,3 +9,42 @@ patch:
   'npm:uglify-js:20150824':
     - jade > transformers > uglify-js:
         patched: '2018-11-29T08:58:12.005Z'
+  SNYK-JS-LODASH-567746:
+    - snyk > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > inquirer > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-config > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/ruby-semver > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2022-10-05T19:37:09.644Z'
